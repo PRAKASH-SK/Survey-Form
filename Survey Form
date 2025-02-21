@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+    <div id="div1">
+        <div id="h">
+    <h1 style="text-align: center;">Employee Satisfaction Survey</h1>
+
+    <h3>Name</h3>
+    <input type="text" placeholder="First Name"> <input id="one" type="text" placeholder="Last Name">
+    <h3>Department</h3>
+    <input type="text" placeholder="Deprtment">
+    <h3>Title</h3>
+    <input type="text" placeholder="Title">
+    <h3>date</h3>
+    <input type="date">
+    <br><br>
+    </div>
+
+    <h3>How would you rate the following?</h3>
+
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th style="width: 200px;" ></th>
+                    <th style="width: 100px;">Very Poor</th>
+                    <th>Poor</th>
+                    <th>average</th>
+                    <th>Good</th>
+                    <th>Excellent</th>
+                </tr>
+    
+            </thead>
+            <tbody>
+    
+                <tr>
+                    <td>Salary</th>
+                    <td><input type="radio" name="1"></td>
+                    <td><input type="radio" name="1"></td>
+                    <td><input type="radio" name="1"></td>
+                    <td><input type="radio" name="1"></td>
+                    <td><input type="radio" name="1"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Overall Benefits</th>
+                    <td><input type="radio" name="2"></td>
+                    <td><input type="radio" name="2"></td>
+                    <td><input type="radio" name="2"></td>
+                    <td><input type="radio" name="2"></td>
+                    <td><input type="radio" name="2"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Health Benefits</th>
+                    <td><input type="radio" name="3"></td>
+                    <td><input type="radio" name="3"></td>
+                    <td><input type="radio" name="3"></td>
+                    <td><input type="radio" name="3"></td>
+                    <td><input type="radio" name="3"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Physical Work Environment</th>
+                    <td><input type="radio" name="4"></td>
+                    <td><input type="radio" name="4"></td>
+                    <td><input type="radio" name="4"></td>
+                    <td><input type="radio" name="4"></td>
+                    <td><input type="radio" name="4"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Senior Leadership</th>
+                    <td><input type="radio" name="5"></td>
+                    <td><input type="radio" name="5"></td>
+                    <td><input type="radio" name="5"></td>
+                    <td><input type="radio" name="5"></td>
+                    <td><input type="radio" name="5"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Individual Management</th>
+                    <td><input type="radio" name="6"></td>
+                    <td><input type="radio" name="6"></td>
+                    <td><input type="radio" name="6"></td>
+                    <td><input type="radio" name="6"></td>
+                    <td><input type="radio" name="6"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Performnce Feedback</th>
+                    <td><input type="radio" name="7"></td>
+                    <td><input type="radio" name="7"></td>
+                    <td><input type="radio" name="7"></td>
+                    <td><input type="radio" name="7"></td>
+                    <td><input type="radio" name="7"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Employee Evaluation</th>
+                    <td><input type="radio" name="8" ></td>
+                    <td><input type="radio" name="8"></td>
+                    <td><input type="radio" name="8"></td>
+                    <td><input type="radio" name="8"></td>
+                    <td><input type="radio" name="8"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Recognition</th>
+                    <td><input type="radio" name="9"></td>
+                    <td><input type="radio" name="9"></td>
+                    <td><input type="radio" name="9"></td>
+                    <td><input type="radio" name="9"></td>
+                    <td><input type="radio" name="9"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Training Opportunities</th>
+                    <td><input type="radio" name="10"></td>
+                    <td><input type="radio" name="10"></td>
+                    <td><input type="radio" name="10"></td>
+                    <td><input type="radio" name="10"></td>
+                    <td><input type="radio" name="10"></td>
+    
+                </tr>
+    
+                <tr>
+                    <td>Opportunities for Advancement</th>
+                    <td><input type="radio" name="11"></td>
+                    <td><input type="radio" name="11"></td>
+                    <td><input type="radio" name="11"></td>
+                    <td><input type="radio" name="11"></td>
+                    <td><input type="radio" name="11"></td>
+    
+                </tr>
+    
+            </tbody>
+        </table>
+
+    <h3>How would you describe your  overall level of jeb satisfaction?</h3>
+    <input type="radio" name="one" style="width: 20px;"> <h4 style="display: inline; "> Very satisfied </h4><br>
+    <input type="radio" name="one" style="width: 20px;"> <h4 style="display: inline; "> Somewhat satisfied</h4><br>
+    <input type="radio" name="one" style="width: 20px;"> <h4 style="display: inline; ">Neutral</h4><br>
+    <input type="radio" name="one" style="width: 20px;"> <h4 style="display: inline; ">Somewhat sisatisfied</h4><br>
+    <input type="radio" name="one" style="width: 20px;"> <h4 style="display: inline; ">Very dissatisfied</h4><br>
+
+
+    <h3>Do you feel valued at work?</h3>
+    <input type="radio" name="two" style="width: 20px;"> <h4 style="display: inline;"> Yes</h4><br>
+    <input type="radio" name="two" style="width: 20px;"> <h4 style="display: inline;"> No</h4><br>
+    <h3>if No,please explain</h3>
+    <textarea name="" id=""></textarea>
+
+    <h3>Do you have the resources you need to perform your job well</h3>
+    <input type="radio" name="three" style="width: 20px;"> <h4 style="display: inline;"> Yes</h4><br>
+    <input type="radio" name="three" style="width: 20px;"> <h4 style="display: inline;"> No</h4><br>
+    <h3>if No,please explain</h3>
+    <textarea name="" id=""></textarea>
+
+    <h3>Does your job cause stress or anxiety</h3>
+    <input type="radio" name="four" style="width: 20px;"> <h4 style="display: inline; "> Yes</h4><br>
+    <input type="radio" name="four" style="width: 20px;"> <h4 style="display: inline; "> No</h4><br>
+    <h3>if No,please explain</h3>
+    <textarea name="" id=""></textarea>
+
+    <h3>Are sufficient efforts being made to soliit colleague opinions and feedback?</h3>
+    <input type="radio" name="five" style="width: 20px;"> <h4 style="display: inline; "> Yes</h4><br>
+    <input type="radio" name="five" style="width: 20px;"> <h4 style="display: inline; "> No</h4><br>
+    <h3>if No,please explain</h3>
+    <textarea name="" id=""></textarea>
+
+    <h3>Please provide any additional feedback</h3>
+    <textarea name="" id=""></textarea>
+    
+
+    <center><button>Submit</button></center>
+
+
+</div></div></div>
+</body>
+</html>
+
+<script>
+
+</script>
+
+<style>
+    #div1{
+        width: 700px;
+        height: 2900px;
+        position: absolute;
+        background-color: blanchedalmond;
+        padding-left: 3%;
+    }
+    #main{
+       
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    }
+    #h input{
+        width: 45%;
+        height: 25px;
+        border-radius: 3px;
+        border-width: 1px;
+        padding: 5px;
+        font-size: 20px;
+        margin: 0px 5px;
+        
+    }
+    
+    input:hover{
+        border-color: aqua;
+        border-width: 3px;
+        box-shadow: none;
+        outline: none;
+        
+    }
+    h4{
+        padding-top: 0px;
+    }
+
+    textarea{
+        width: 650px;
+        height: 200px;
+    }
+
+    button{
+        margin-top: 50px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+        background-color: aqua;
+        border: none;
+        border-radius: 10px;
+    }
+
+    button:hover
+    {
+        cursor: pointer;
+        background-color: rgb(153, 250, 18);
+    }
+
+    th{
+        width: 20px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    td{
+        
+        text-align: center;
+    }
+
+
+
+</style>
